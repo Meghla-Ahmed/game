@@ -186,7 +186,7 @@ h1{
     }
 }
 /* Extra small devices (phones, 480px and down) */
-@media (min-width:320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .heading-part{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
