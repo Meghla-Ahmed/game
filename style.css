@@ -164,6 +164,8 @@ h1{
     .heading-part{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        text-align: center;
     }
     .heading-and-button{
         justify-content: center;
@@ -190,6 +192,8 @@ h1{
     .heading-part{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        text-align: center;
     }
     .heading-and-button{
         justify-content: center;
@@ -201,7 +205,6 @@ h1{
     .banner-img img{
         height: 70%;
         width: 100%;
-        padding-left: 200px;
     }
     .card-container{
         display: grid;
