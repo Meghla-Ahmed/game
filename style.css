@@ -160,7 +160,7 @@ h1{
     }
 }
 /*Small devices (portrait tablets and large phones, Medium devices (landscape tablets, 1200px and up) */
-@media (min-width:768px) and (max-width: 1200px) {
+@media (min-width:481px) and (max-width: 1200px) {
     .heading-part{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -185,8 +185,8 @@ h1{
         text-align: center;
     }
 }
-/* Extra small devices (phones, 767px and down) */
-@media (min-width:320px) and (max-width: 767px) {
+/* Extra small devices (phones, 480px and down) */
+@media (min-width:320px) and (max-width: 480px) {
     .heading-part{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
