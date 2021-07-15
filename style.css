@@ -1,0 +1,220 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* banner part */
+.heading-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #2D25A0;
+    justify-content: center;
+    align-items: center;  
+    width: 100%;  
+}
+.heading-part div{
+    width: 50%;
+}
+.heading-and-button{
+    color: #FFFFFF;
+    width: 4850px;
+    height: 230px;
+    margin-left: 156px;
+    margin-right: 102px;
+    padding-bottom: 169px;
+}
+button{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    font-size: 18px;
+    transition: transform .1s ease-in-out; /*animation*/
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    transform: scale(1.3);
+}
+.title{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 27px;
+}
+h1{
+    color: #fff;
+    width: 485px;
+    height: 230px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+}
+.banner-img img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 135px;
+    margin-right: 140.99px;
+    margin-bottom: 86px;
+    transition: transform .5s ease-in-out; /*animation*/
+}
+.banner-img img:hover{
+    transform: scale(1.2);
+}
+
+/* card section */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+}
+.card{
+    padding: 15px;
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    transition: transform .5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+}
+
+/* subscription */
+.subscribe{
+    background-color: rgb(243, 235, 235);
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+#colour-word{
+    color: crimson;
+}
+
+/* app style */
+.app-store{
+    justify-content: center;
+    text-align: center;
+}
+
+/* Footer */
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:158px;
+}
+
+.footer-area img{
+    width: 50%;
+}
+.footer-area ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+    width: 20%;
+
+}
+.footer-area ul li{
+    margin-right:15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.footer-area ul li a{
+    border-radius:100%;
+    color: #5a5757;
+    font-size: 20px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media (min-width:1201px) and (max-width: 1500px) {
+    .card-container{
+        justify-content: center;
+        text-align: center;
+    }
+}
+/*Small devices (portrait tablets and large phones, Medium devices (landscape tablets, 1200px and up) */
+@media (min-width:768px) and (max-width: 1200px) {
+    .heading-part{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .heading-and-button{
+        justify-content: center;
+        margin: 112px 66px 0px 90px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-img img{
+        height: 70%;
+        width: 100%;
+        padding-left: 200px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+/* Extra small devices (phones, 767px and down) */
+@media (min-width:320px) and (max-width: 767px) {
+    .heading-part{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .heading-and-button{
+        justify-content: center;
+        margin: 112px 66px 0px 90px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-img img{
+        height: 70%;
+        width: 100%;
+        padding-left: 200px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+    .card{
+        justify-content: center;
+        text-align: left;
+    }
+}
+
+
+
